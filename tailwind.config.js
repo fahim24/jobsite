@@ -2,7 +2,14 @@
 export default {
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
-		extend: {},
+		extend: {
+			colors: {
+				CDark: "#161C2D",
+				CBlue: "#473BF0",
+				CGreen: "#68D585",
+				CGray: "#F4F7FA",
+			},
+		},
 	},
 	plugins: [],
 };
