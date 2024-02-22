@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bgI2 {
+	background-image: url("./assets/wave1.png");
+	background-repeat: no-repeat;
+}
+
+.Jhover:hover {
+	background-color: #473bf0;
+}
+.Jhover:hover * p {
+	color: white;
+}
+.Jhover:hover * h6 {
+	color: white;
+}
+.Jhover:hover * button {
+	display: flex;
+}

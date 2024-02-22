@@ -21,7 +21,9 @@ const Subscribe = () => {
 						placeholder="Enter Your Email"
 						className="border border-solid border-CGray p-2.5 rounded"
 					/>
-					<button className="bg-CBlue text-white font-bold rounded p-2.5">Subscribe</button>
+					<button className="bg-CBlue text-white font-bold rounded p-2.5 hover:opacity-90">
+						Subscribe
+					</button>
 				</div>
 				<p className="text-CDark opacity-70 text-center">
 					We’ll never share your details with third parties. View our Privacy Policy for more info.

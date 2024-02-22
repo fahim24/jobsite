@@ -8,6 +8,7 @@ export default {
 				CBlue: "#473BF0",
 				CGreen: "#68D585",
 				CGray: "#F4F7FA",
+				CRed: "#F64B4B",
 			},
 		},
 	},

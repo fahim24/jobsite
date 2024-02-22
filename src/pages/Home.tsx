@@ -1,3 +1,4 @@
+import { Divider } from "antd";
 import Category from "../components/Category";
 import Companies from "../components/Companies";
 import Footer from "../components/Footer";
@@ -14,6 +15,7 @@ const Home = () => {
 			<Companies />
 			<Category />
 			<Steps />
+			<Divider />
 			<Jobs />
 			<News />
 			<Subscribe />
