@@ -16,6 +16,10 @@
 .Jhover:hover * h6 {
 	color: white;
 }
-.Jhover:hover * button {
-	display: flex;
+
+.ant-card .ant-card-body {
+	height: 100%;
+}
+.ant-select .ant-select-arrow {
+	color: black;
 }

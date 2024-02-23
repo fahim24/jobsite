@@ -11,8 +11,8 @@ const Steps = () => {
 					landing page.
 				</p>
 			</div>
-			<div className="grid grid-cols-2 gap-20">
-				<div className="relative h-[500px]">
+			<div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
+				<div className="relative h-[400px] md:h-[500px]">
 					<div className="bg-CGreen h-full w-3/4 absolute -bottom-10 right-0 rounded-lg opacity-10"></div>
 					<div className="drop-shadow-xl h-full w-3/4 absolute bottom-0 right-10  ">
 						<img
@@ -21,9 +21,9 @@ const Steps = () => {
 							className="h-full w-full object-cover rounded-lg -scale-x-100 object-top"
 						/>
 					</div>
-					<div className="bg-CDark h-fit w-fit absolute bottom-1/4 left-0 rounded-lg translate-y-1/2 drop-shadow-2xl ">
+					<div className="bg-CDark h-fit w-fit absolute bottom-1/4 left-0 rounded-lg translate-y-1/2 hover:drop-shadow-2xl cursor-pointer">
 						<div className="px-6 py-4 flex gap-3 items-center">
-							<div className="w-10 h-10 shrink-0 bg-CGreen flex items-center justify-center text-CDark rounded-full">
+							<div className="size-10 shrink-0 bg-CGreen flex items-center justify-center text-CDark rounded-full">
 								<FontAwesomeIcon icon={faBell} />
 							</div>
 							<div className="flex flex-col gap-2 text-white">
@@ -33,7 +33,7 @@ const Steps = () => {
 						</div>
 					</div>
 				</div>
-				<div className="flex flex-col gap-12 w-3/4 justify-center">
+				<div className="flex flex-col gap-12 w-full md:w-3/4 justify-center">
 					<div className="flex gap-3">
 						<div className="w-10 h-10 shrink-0 bg-CBlue flex items-center justify-center text-white font-bold rounded-full">
 							1

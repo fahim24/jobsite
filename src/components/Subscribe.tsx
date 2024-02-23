@@ -15,7 +15,7 @@ const Subscribe = () => {
 						landing page.
 					</p>
 				</div>
-				<div className="grid grid-cols-[2fr_1fr] gap-5 ">
+				<div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-5 ">
 					<input
 						type="email"
 						placeholder="Enter Your Email"

@@ -14,7 +14,7 @@ const News = () => {
 						landing page.
 					</p>
 				</div>
-				<div className="grid grid-cols-3 gap-10">
+				<div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
 					<Card hoverable cover={<img alt="example" src={Img1} className="h-80 object-cover" />}>
 						<p className="text-CDark opacity-70">Career</p>
 						<h4 className="text-CDark font-bold text-xl">
