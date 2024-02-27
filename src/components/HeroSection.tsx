@@ -15,14 +15,12 @@ const HeroSection = () => {
 			<NavSection />
 
 			<div className="container mx-auto px-10 space-y-12 justify-center h-full py-20 relative">
-				<img
-					src={P1}
-					alt=""
-					className="hidden sm:block absolute right-0 lg:right-[18%] top-[10%] lg:top-[24%] z-[-2]"
-				/>
-				<img src={P2} alt="" className="absolute right-[10%] lg:right-[35%] bottom-0 z-[-2]" />
+				<div className="hidden md:block absolute bottom-0 right-0 lg:right-[10%] z-[-2] h-full w-fit">
+					<img src={Hero} alt="" className=" h-full invisible lg:visible" />
+					<img src={P1} alt="" className=" absolute right-[18%] top-[24%] z-[-1]" />
+					<img src={P2} alt="" className="absolute -left-[15%] bottom-0 z-[-1]" />
+				</div>
 
-				<img src={Hero} alt="" className="hidden lg:block absolute right-[10%] bottom-0 z-[-1]" />
 				<div className="w-full md:w-3/4 lg:w-1/2  text-CDark space-y-10">
 					<h1 className="text-5xl md:text-6xl font-bold ">Find a dream job that changes life.</h1>
 					<p className="text-lg opacity-70">

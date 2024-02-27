@@ -46,7 +46,7 @@ const NavSection = () => {
 					<h2 className="text-CDark hover:text-CRed font-bold text-2xl">Brainwave.io</h2>
 				</a>
 				<button
-					className="block lg:hidden  text-CDark font-bold rounded-lg"
+					className="block lg:hidden text-CDark font-bold rounded-lg"
 					title="Open/Close nav menu"
 					onClick={toggleMenu}
 				>
