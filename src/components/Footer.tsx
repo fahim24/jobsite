@@ -11,7 +11,7 @@ const Footer = () => {
 		<section className="bg-CDark">
 			<div className="container mx-auto px-10 py-20 ">
 				<div className="flex flex-col lg:flex-row justify-between gap-y-10">
-					<div className="flex flex-col gap-8 text-white basis-1/4 order-2 lg:order-1">
+					<div className="space-y-8 text-white basis-1/4 order-2 lg:order-1">
 						<h3 className="text-2xl font-bold text-center md:text-left">Brainwave.io</h3>
 						<p className="opacity-70 text-center md:text-left">
 							With lots of unique blocks, you can easily build a page without coding. Build your
@@ -33,9 +33,9 @@ const Footer = () => {
 						</div>
 					</div>
 					<div className="grid grid-cols-1 md:grid-cols-4 gap-x-16 gap-y-8 order-1 lg:order-2">
-						<div className="flex flex-col items-center md:items-start text-center md:text-left text-white gap-5">
+						<div className="text-center md:text-left text-white space-y-5">
 							<h6 className="opacity-70">Company</h6>
-							<ul className="">
+							<ul className="space-y-1">
 								<li>
 									<a href="#" className="hover:text-CGreen">
 										About us
@@ -58,9 +58,9 @@ const Footer = () => {
 								</li>
 							</ul>
 						</div>
-						<div className="flex flex-col items-center md:items-start text-center md:text-left text-white gap-5">
+						<div className="text-center md:text-left text-white space-y-5">
 							<h6 className="opacity-70">Product</h6>
-							<ul className="">
+							<ul className="space-y-1">
 								<li>
 									<a href="#" className="hover:text-CGreen">
 										Features
@@ -88,9 +88,9 @@ const Footer = () => {
 								</li>
 							</ul>
 						</div>
-						<div className="flex flex-col items-center md:items-start text-center md:text-left text-white gap-5">
+						<div className="text-center md:text-left text-white space-y-5">
 							<h6 className="opacity-70">Services</h6>
-							<ul className="">
+							<ul className="space-y-1">
 								<li>
 									<a href="#" className="hover:text-CGreen">
 										Digital Marketing
@@ -113,9 +113,9 @@ const Footer = () => {
 								</li>
 							</ul>
 						</div>
-						<div className="flex flex-col items-center md:items-start text-center md:text-left text-white gap-5">
+						<div className="text-center md:text-left text-white space-y-5">
 							<h6 className="opacity-70">Legal</h6>
-							<ul className="">
+							<ul className="space-y-1">
 								<li>
 									<a href="#" className="hover:text-CGreen">
 										Privacy Policy

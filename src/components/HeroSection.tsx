@@ -1,13 +1,29 @@
 import { Input, Select } from "antd";
 import NavSection from "./NavSection";
+import Hero from "../assets/hero.png";
+import P1 from "../assets/pattern1.svg";
+import P2 from "../assets/pattern2.svg";
+import W from "../assets/wave.png";
 
 const HeroSection = () => {
 	const options = ["City 1", "City 2", "City 3", "City 4"];
 	return (
-		<section className="bg-CGray relative h-auto">
+		<section className=" relative h-auto">
+			<div className="bg-CGray absolute w-full h-full z-[-4]"></div>
+			<img src={W} alt="" className="absolute left-0 bottom-0 z-[-3]" />
+
 			<NavSection />
-			<div className="container mx-auto px-10 flex flex-col gap-16 justify-center h-full py-24">
-				<div className="w-full md:w-3/4 lg:w-1/2 text-CDark space-y-10">
+
+			<div className="container mx-auto px-10 space-y-12 justify-center h-full py-20 relative">
+				<img
+					src={P1}
+					alt=""
+					className="hidden sm:block absolute right-0 lg:right-[18%] top-[10%] lg:top-[24%] z-[-2]"
+				/>
+				<img src={P2} alt="" className="absolute right-[10%] lg:right-[35%] bottom-0 z-[-2]" />
+
+				<img src={Hero} alt="" className="hidden lg:block absolute right-[10%] bottom-0 z-[-1]" />
+				<div className="w-full md:w-3/4 lg:w-1/2  text-CDark space-y-10">
 					<h1 className="text-5xl md:text-6xl font-bold ">Find a dream job that changes life.</h1>
 					<p className="text-lg opacity-70">
 						With lots of unique blocks, you can easily build a page without coding. Build your next
@@ -17,7 +33,7 @@ const HeroSection = () => {
 				<div className="space-y-10">
 					<form
 						action="#"
-						className="bg-CBlue rounded-lg p-4 grid grid-cols-1 md:grid-cols-3 items-center gap-5 w-full lg:w-2/3"
+						className="bg-CBlue rounded-lg p-4 grid grid-cols-1 md:grid-cols-3 items-center gap-5 w-full md:w-4/5 lg:w-2/3"
 					>
 						{/* antd Select */}
 						<Input allowClear size="large" placeholder="Job title or keyword" />

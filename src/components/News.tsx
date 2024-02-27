@@ -6,8 +6,8 @@ import Img3 from "../assets/img4.png";
 const News = () => {
 	return (
 		<section className="bg-CGray">
-			<div className="container mx-auto px-10 py-20 flex flex-col gap-12">
-				<div className="w-full md:w-3/4 lg:w-2/5 mx-auto flex flex-col gap-10 text-CDark  text-center">
+			<div className="container mx-auto px-10 py-20 space-y-12">
+				<div className="w-full md:w-3/4 lg:w-2/5 mx-auto space-y-10 text-CDark  text-center">
 					<h3 className="text-4xl font-bold">News that helps</h3>
 					<p className=" opacity-70 text-lg">
 						With lots of unique blocks, you can easily build a page without coding. Build your next

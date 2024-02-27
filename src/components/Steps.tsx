@@ -4,7 +4,7 @@ import { faBell } from "@fortawesome/free-solid-svg-icons";
 const Steps = () => {
 	return (
 		<section className="container mx-auto px-10 py-20">
-			<div className="w-full md:w-3/4 lg:w-3/5 mx-auto flex flex-col gap-10 text-CDark text-center pb-16">
+			<div className="w-full md:w-3/4 lg:w-3/5 mx-auto space-y-10 text-CDark text-center pb-16">
 				<h3 className="text-4xl font-bold">Find jobs with 3 easy steps</h3>
 				<p className=" opacity-70 text-lg">
 					With lots of unique blocks, you can easily build a page without coding. Build your next
@@ -33,12 +33,12 @@ const Steps = () => {
 						</div>
 					</div>
 				</div>
-				<div className="flex flex-col gap-12 w-full md:w-3/4 justify-center">
-					<div className="flex gap-3">
-						<div className="w-10 h-10 shrink-0 bg-CBlue flex items-center justify-center text-white font-bold rounded-full">
+				<div className="space-y-12 w-full md:w-3/4 justify-center">
+					<div className="space-x-3">
+						<div className="size-10 shrink-0 bg-CBlue flex items-center justify-center text-white font-bold rounded-full ml-2">
 							1
 						</div>
-						<div className="flex flex-col gap-2 text-CDark">
+						<div className="space-y-2 text-CDark">
 							<h5 className="font-bold text-xl">Search for a job</h5>
 							<p className="opacity-70">
 								With lots of unique blocks, you can easily build a page without coding.{" "}
@@ -46,11 +46,11 @@ const Steps = () => {
 						</div>
 					</div>
 
-					<div className="flex gap-3">
-						<div className="w-10 h-10 shrink-0 bg-CBlue flex items-center justify-center text-white font-bold rounded-full">
+					<div className="space-x-3">
+						<div className="size-10 shrink-0 bg-CBlue flex items-center justify-center text-white font-bold rounded-full ml-2">
 							2
 						</div>
-						<div className="flex flex-col gap-2 text-CDark">
+						<div className="space-y-2 text-CDark">
 							<h5 className="font-bold text-xl">Apply within our website</h5>
 							<p className="opacity-70">
 								With lots of unique blocks, you can easily build a page without coding.{" "}
@@ -58,11 +58,11 @@ const Steps = () => {
 						</div>
 					</div>
 
-					<div className="flex gap-3">
-						<div className="w-10 h-10 shrink-0 bg-CBlue flex items-center justify-center text-white font-bold rounded-full">
+					<div className="space-x-3">
+						<div className="size-10 shrink-0 bg-CBlue flex items-center justify-center text-white font-bold rounded-full ml-2">
 							3
 						</div>
-						<div className="flex flex-col gap-2 text-CDark">
+						<div className="space-y-2 text-CDark">
 							<h5 className="font-bold text-xl">Get interview call</h5>
 							<p className="opacity-70">
 								With lots of unique blocks, you can easily build a page without coding.{" "}

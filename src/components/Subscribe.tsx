@@ -4,9 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Subscribe = () => {
 	return (
 		<section className="container mx-auto px-10 py-24 ">
-			<div className="w-full md:w-3/5 lg:w-2/5 mx-auto flex flex-col  gap-16">
-				<div className="flex flex-col gap-5 text-CDark text-center">
-					<div className="w-16 h-16 mx-auto bg-CGreen rounded-full text-3xl text-CDark flex items-center justify-center ">
+			<div className="w-full md:w-3/5 lg:w-2/5 mx-auto space-y-16">
+				<div className="space-y-5 text-CDark text-center">
+					<div className="size-16 mx-auto bg-CGreen rounded-full text-3xl text-CDark flex items-center justify-center ">
 						<FontAwesomeIcon icon={faEnvelope} />
 					</div>
 					<h2 className=" font-bold text-4xl ">Get latest updates</h2>

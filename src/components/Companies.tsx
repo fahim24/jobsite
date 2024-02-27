@@ -4,6 +4,7 @@ import Logo3 from "../assets/logo3.png";
 import Logo4 from "../assets/logo4.png";
 import Logo5 from "../assets/logo5.png";
 import Logo6 from "../assets/logo6.png";
+
 const Companies = () => {
 	return (
 		<section className="container mx-auto px-10 my-24">
