@@ -17,13 +17,25 @@ const Companies = () => {
 						cross-browser bugs, designing new pages.
 					</p>
 				</div>
-				<div className="flex gap-x-20 gap-y-10 flex-wrap opacity-50 justify-center">
-					<img src={Logo1} alt="" className="h-8" />
-					<img src={Logo2} alt="" className="h-8" />
-					<img src={Logo3} alt="" className="h-8" />
-					<img src={Logo4} alt="" className="h-8" />
-					<img src={Logo5} alt="" className="h-8" />
-					<img src={Logo6} alt="" className="h-8" />
+				<div className="flex gap-x-20 gap-y-10 flex-wrap  justify-center ">
+					<a href="#">
+						<img src={Logo1} alt="" className="h-8 opacity-50 hover:opacity-100" />
+					</a>
+					<a href="#">
+						<img src={Logo2} alt="" className="h-8 opacity-50 hover:opacity-100" />
+					</a>
+					<a href="#">
+						<img src={Logo3} alt="" className="h-8 opacity-50 hover:opacity-100" />
+					</a>
+					<a href="#">
+						<img src={Logo4} alt="" className="h-8 opacity-50 hover:opacity-100" />
+					</a>
+					<a href="#">
+						<img src={Logo5} alt="" className="h-8 opacity-50 hover:opacity-100" />
+					</a>
+					<a href="#">
+						<img src={Logo6} alt="" className="h-8 opacity-50 hover:opacity-100" />
+					</a>
 				</div>
 			</div>
 		</section>

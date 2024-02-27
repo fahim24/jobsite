@@ -8,7 +8,6 @@ const NavSection = () => {
 	const toggleMenu = () => {
 		const nav = document.getElementById("navMenu");
 		const log = document.getElementById("logMenu");
-		console.log("click");
 
 		if (!isOpen) {
 			nav?.classList.remove("hidden");
@@ -72,6 +71,7 @@ const NavSection = () => {
 					Contact
 				</a>
 			</div>
+
 			<div
 				id="logMenu"
 				className="hidden lg:flex flex-col lg:flex-row gap-x-10 gap-y-3 text-CDark font-bold"

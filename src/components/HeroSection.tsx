@@ -54,7 +54,7 @@ const HeroSection = () => {
 								</Select.Option>
 							))}
 						</Select>
-						<button className="bg-CDark text-white text-lg font-bold py-2.5 px-8 rounded-lg">
+						<button className="bg-CDark text-white text-lg font-bold py-2.5 px-8 rounded-lg hover:opacity-90">
 							Search
 						</button>
 					</form>
